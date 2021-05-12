@@ -32,6 +32,7 @@ const HomePage = (props) => {
   const [chatUser, setChatUser] = useState('');
   const [message, setMessage] = useState('');
   const [userUid, setUserUid] = useState(null);
+  // let unsubscribe;
   let unsubscribe;
 
 
